@@ -10,3 +10,5 @@ With the extensive growth in usage of cars, the newly produced cars are unable t
 7.	Seller_Type: From whom the car is bought [categorical]
 8.	Transmission: Transmission type of the car [categorical]
 9.	Owner: Previously owned by [numeric]
+
+Here R-squared measures the strength of the relationship between the model and the dependent variable on a convenient 0 – 100% scale. The code is building and training a neural network model using the car data to predict the selling price of a car based on various features such as the car's age, mileage, fuel type, seller type, etc. It also evaluates the performance of the model using various metrics such as R-squared, mean squared error, and accuracy on both the training and testing data sets.
